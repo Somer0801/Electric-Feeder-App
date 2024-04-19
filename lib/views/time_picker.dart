@@ -26,7 +26,7 @@ class _ScheduleScreenState extends State<ScheduleScreen> {
      
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
-        children: <Widget>[
+        children: [
            CustomBar(back: (){Get.to(HomeScreen());}, not:(){Get.to(HomeScreen());}),
           SizedBox(height: Get.height*0.01,),
           Center(child: Text("Schedule Feeder 001",style: TextStyle(
